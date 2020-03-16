@@ -1,0 +1,47 @@
+<div class="container">
+    <h1 class="brand"><span>Exolve</span> EMAILER</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="company-info">
+        <h3>Exolve Emailer</h3>
+        <ul>
+          <li><i class="fa fa-road"></i> 1A Hughes Avenue st, Yaba Lagos</li>
+          <li><i class="fa fa-phone"></i> 08087796713</li>
+          <li><i class="fa fa-envelope"></i> exolveTech@gmail.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+       
+        <form action="/send" method="POST">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label>Company</label>
+            <input type="text" name="company">
+          </p>
+          <p>
+            <label>Senders Email Address</label>
+            <input type="email" name="fromemail">
+          </p>
+          <p>
+            <label>Receivers Email Address</label>
+            <input type="email" name="toemail">
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone">
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
