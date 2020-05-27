@@ -20,8 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-sendgrid.setApiKey('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');
-//routes
+sendgrid.setApiKey(process.env.KEY)
 
 
 app.get('/', (req, res, next) => {
